@@ -1,5 +1,8 @@
 @import url(font-awesome.min.css);
 @import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400";
+@import "https://fonts.googleapis.com/css?family=Open+Sans";  
+@import "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300";
+
 
 /*
 	Stellar by HTML5 UP
@@ -1644,12 +1647,15 @@
 /* Type */
 
 	body {
-		background-color: #935d8c;
+		/*background-color: #935d8c;*/
+        background-color: #6cc2bd;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
 	body, input, select, textarea {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+        /*AA*/
+		/*font-family: "Source Sans Pro", Helvetica, sans-serif;*/
+        font-family: 'Open Sans', sans-serif;
 		font-size: 17pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -1730,6 +1736,8 @@
 		}
 
 	h1 {
+        /*AA*/
+        font-family: 'Open Sans Condensed', sans-serif;
 		font-size: 2.5em;
 		line-height: 1.2;
 	}
